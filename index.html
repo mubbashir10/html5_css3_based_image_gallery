@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery - Lab 2</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel='stylesheet' id='Raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A400%2C800%2C700%2C500%2C300%2C100&#038;ver=4.3' type='text/css' media='all' />
+	
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  	<div class="container">	
+		<h1>Welcome to Sample Gallery</h1>
+		<h2>click the desired image to enlarge it!</h2>
+
+		<div class="canvas">
+
+			<div id="slide1">
+				<img src="images/slide1.jpg" alt="" class="responsive"/>
+				<a href="#slide5" class="prev"><button>Prev</button></a>
+				<a href="#slide2" class="next"><button>Next</button></a>
+			</div>
+
+			<div id="slide2">
+				<img src="images/slide2.jpg" alt="" class="responsive"/>
+				<a href="#slide1" class="prev"><button>Prev</button></a>
+				<a href="#slide3" class="next"><button>Next</button></a>	
+			</div>
+
+			<div id="slide3">
+				<img src="images/slide3.jpg" alt="" class="responsive"/>
+				<a href="#slide2" class="prev"><button>Prev</button></a>
+				<a href="#slide4" class="next"><button>Next</button></a>	
+			</div>
+
+			<div id="slide4">
+				<img src="images/slide4.jpg" alt="" class="responsive"/>
+				<a href="#slide3" class="prev"><button>Prev</button></a>
+				<a href="#slide5" class="next"><button>Next</button></a>	
+			</div>
+
+
+			<div id="slide5">
+				<img src="images/slide5.jpg" alt="" class="responsive"/>
+				<a href="#slide4" class="prev"><button>Prev</button></a>
+				<a href="#slide1" class="next"><button>Next</button></a>
+			</div>
+		</div>
+
+		<div class="strip">
+			<a href="#slide1"><img src="images/slide1.jpg" alt="" class="thumb"/><a/>
+			<a href="#slide2"><img src="images/slide2.jpg" alt="" class="thumb"/><a/>
+			<a href="#slide3"><img src="images/slide3.jpg" alt="" class="thumb"/><a/>
+			<a href="#slide4"><img src="images/slide4.jpg" alt="" class="thumb"/><a/>
+			<a href="#slide5"><img src="images/slide5.jpg" alt="" class="thumb"/><a/>
+		</div>
+
+		<div class="credits">Designed by <a href="http://mubbashir10.com">Mubbashir10</a></div>
+	</div>
+</body>
+</html>
